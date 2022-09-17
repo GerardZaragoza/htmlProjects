@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-<script>alert("Hello world! i am an alert box");
+<script>
 <button onclick="My_First_Function()">
 		Click me!
 		</button>
