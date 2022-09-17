@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <body>
-<script>
 <button onclick="My_First_Function()">
 		Click me!
 		</button>
