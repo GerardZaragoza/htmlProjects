@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html>
 <body>
-<script>alert("Hello world! i am an alert box");</script>
+<script>alert("Hello world! i am an alert box");
+<button onclick="My_First_Function()">
+		Click me!
+		</button>
+		<p id="Irish"></p>
+<script>
+	function My_First_Function() {
+		var String = "Kiss me, I'm Irish!";
+		var result = String.fontcolor("green");
+		document.getElementById("Irish").innerHTML =
+		result;
+	}</script>
 </body>
 </html> 
