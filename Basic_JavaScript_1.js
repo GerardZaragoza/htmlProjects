@@ -11,6 +11,7 @@
 		var result = String.fontcolor("green");
 		document.getElementById("Irish").innerHTML =
 		result;
-	}</script>
+	}
+	</script>
 </body>
 </html> 
