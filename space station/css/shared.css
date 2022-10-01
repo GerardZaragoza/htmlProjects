@@ -324,16 +324,14 @@ section {
     cursor: pointer;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
+    position: relative;
+    display: inline;
+    float: right;
 }
 
 .terms:hover {
     color: orange;
     text-decoration: underline;
-}
-.terms {
-    position: relative;
-    display: inline;
-    float: right;
 }
 
 .submit input[type="submit"] {
@@ -348,10 +346,17 @@ section {
     padding: 7px 0px;
     width: 25%;
     font-size: 10px;
-    transition: border-color 0.3s color 0.3s background-color 0.3s;
+    transition:border-color 0.3s color 0.3s background-color 0.3s;
     border-radius: 7px;
     background-color: #797a7b;
     box-shadow:  1px 1px 4px 0 rgba(0, 0, 0, 0.3);
 }
+.submit input[type="submit"]:hover {
+    color: #000;
+    background-color: #8d8e0f;
+    box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+
 
 
