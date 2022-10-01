@@ -9,7 +9,7 @@ html {
 body {
     font-size: 14px;
     margin: 0;
-    font-family: helvetica neue;
+    font-family: Helvetica, sans-serif;
     line-height: 1.42857143;
     color: #333;
     background-color: #fff;
@@ -35,6 +35,18 @@ h1 {
     text-align: center;
     color: #e91c1c;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+/*-------UNDERLINE----------*/
+h1::after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 150px;
+    background: #e91c1c;
+    margin: 5px auto 40px;
+    box-shadow: 5px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -157,8 +169,8 @@ section {
             HOME SECTION
 -----------------------------------*/
 
-#home {
-    background: url(./images/planets.jpg) no-repeat 50% 50%;
+home {
+    background: url(../images/planets.jpg) no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
