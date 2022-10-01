@@ -1,0 +1,171 @@
+html {
+    font-family: sans-serif;
+    font-size: 62.5%;
+    -webkit-top-highlight-color: rgba(o, o, o, o,);
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100;
+}
+/*-----body------*/
+body {
+    font-size: 14px;
+    margin: 0;
+    font-family: helvetica neue;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+/*-----footer-----*/
+footer,
+nav{
+    display: block;
+}
+
+/*-----headings-----*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: open sans, sans-serif;
+}
+
+/*----------H1---------*/
+h1 {
+    line-height: 50px;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #e91c1c;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+/*----------H2---------*/
+h2 {
+    line-height: 50px;
+    color: #e91c1c;
+}
+
+
+/*----------H3---------*/
+h3 {
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+
+/*----------H4---------*/
+h4 {
+    padding-top: 25px;
+    line-height: 40px;
+    padding-bottom: 0px;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+
+/*----------P---------*/
+p {
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+
+/*----------text-center---------*/
+.text-center {
+    text-align: center;
+}
+
+
+/*----------HEADING-PADDING---------*/
+.heading-padding {
+    padding-bottom: 40px;
+}
+
+
+/*----------SECTION---------*/
+section {
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+
+/*----------NAVBAR---------*/
+.navbar {
+    height: 105px;
+    max-height: 340px;
+    display: block;
+}
+
+
+/*----------CONTAINER---------*/
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/*----------CONTAINER-FLUID---------*/
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/*----------ROW---------*/
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/*----------ADD-ONS---------*/
+.clearfix:after
+.container:after
+.navbar:after {
+    clear: both;
+    display: table;
+    content: " ";
+}
+
+/*----------WRAP---------*/
+.wrap {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+
+/*----------MENU-CONTAINER---------*/
+.menu-container {
+    max-height: 340px;
+    margin: 0% auto;
+    content: " ";
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+
+/*--------HOME SECTION--------*/
+
+#home {
+    background: url(../images/planets.jpg) no-repeat 50% 50%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+    padding-top: 350px; /*---spacer before the main title logo---*/
+    padding-bottom: 500px;/*---spacer after main title logo---*/
+    
+}
