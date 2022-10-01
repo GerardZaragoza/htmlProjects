@@ -169,7 +169,7 @@ section {
             HOME SECTION
 -----------------------------------*/
 
-home {
+#home {
     background: url(../images/planets.jpg) no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
