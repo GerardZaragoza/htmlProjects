@@ -2,6 +2,14 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    height: 50%;
+    width: 25%
+  
+}
+#pic1 {
+    border: 5px;
+    padding: auto;
+    border-radius: 15px;
+    border-left-color: blanchedalmond;
+    border-right-color: cornflowerblue;
+
 }
