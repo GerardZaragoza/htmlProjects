@@ -4,12 +4,55 @@
     margin-left: auto;
     margin-right: auto;
     width: 30%
-  
 }
-#luka {
-    border: 2px dashed rgba(28, 87, 165, 0.548);
+
+#lotus {
+    border: 8px dashed rgba(28, 87, 165, 0.548);
     padding: 2px;
-    border-radius: 2px;
-    
+    border-radius: 35px;
+    filter: blur(5px)  
   }
 
+  table {    
+    border: 4px solid;
+    text-align: center;
+    padding: 3px;
+    background-color: whitesmoke;
+  }
+
+ 
+  th {
+    border: 2px solid;
+    text-align: center;
+    padding: 10px;
+    background-color: cornflowerblue;
+  }
+
+  td {
+    border: 2px solid;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: rgb(156, 64, 28);
+    font-size: 600%;
+  }
+
+
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    Transform: translate(-50% -50%)
+}
+  
+
+  footer{
+    text-align: center;
+    font-weight: bold;
+  }
