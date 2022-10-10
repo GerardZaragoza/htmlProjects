@@ -1,4 +1,4 @@
-.Navbar {
+.navbar {
     overflow: hidden; /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
     background-color: black; /* This colors the navbar black */
     position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
@@ -16,7 +16,7 @@
 }
 
 /* Navbar links */
-.Navbar a {
+.navbar a {
     float: left; /* This specifies that the text floats on the left on the navbar */
     display: block; /* This ensures that other text will be displayed on the same line or row, instead of a new line */
     color: white; /* This is the font color for text on our navbar */
@@ -38,20 +38,20 @@
 
 /* Screens 576px and smaller will display navbar links equally distributed */
 @media screen and (max-width: 576px) {
-    .Navbar a{
+    .navbar a{
         width: 25%; /* This makes each link take up 1/4 of the navbar */
         font-size: 12px;
     }
 }
 
 /* Navbar hover effects */
-.Navbar a:hover {
+.navbar a:hover {
     background-color: #f4f4f4; /* Defines the background color that will display when you hover over the link */
     color: black; /* This defines the font color that will display when navbar a elements are hovered over */
     font-weight: bold; /* This makes the text on the navbar bold when hovered over */
 }
 
 /* Navbar home button */
-.Navbar a.active { /* This targets the a element on the navbar with the "active" class */
+.navbar a.active { /* This targets the a element on the navbar with the "active" class */
     background-color: darkgray;
 }
