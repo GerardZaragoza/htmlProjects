@@ -50,7 +50,26 @@
     bottom: 50%;
     Transform: translate(-50% -50%)
 }
+
+.column {
+    float: left;
+    column-width: 50%;
+    height: 90x;
+    width: 20%;
+    color: blue;
+    text-align: center;
+  }
   
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    color: antiquewhite;
+    text-align: center;
+  }
+
+  
+
 
   footer{
     text-align: center;
