@@ -41,6 +41,12 @@
     font-size: 600%;
   }
 
+  .container1 {
+    position: relative;
+    text-align: center;
+    color: rgb(156, 64, 28);
+    font-size: 600%;
+  }
 
   .text {
     position: absolute;
@@ -53,7 +59,6 @@
 
 .column {
     float: left;
-    column-width: 50%;
     height: 90x;
     width: 20%;
     color: blue;
